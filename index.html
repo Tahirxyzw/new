@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayesha Dumb</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "mediaqueries.css">
+</head>
+<body>
+    <nav id = "desktop-nav"> 
+        <div class = "logo"> Ayesha </div>
+        <div>
+            <ul class = "nav-links">
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#likes">Likes</a></li>
+                <li> <a href="#goals">Kids</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">AYESHA</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Likes</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Kids</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="Screenshot (336).png" alt="John Doe profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <div class="title">Ayesha</div>
+          <p class="section__text__p2">Lollipop Snatcherr</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('Holy-Quran-English.pdf')"
+            >
+              Download QURAN 
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="Twitter-new-logo.png"
+              alt="My Twitter profile"
+              class="icon"
+              onclick="location.href='https://twitter.com/baggyytshirt'"
+            />
+            <img
+              src="insta.png"
+              alt="My Twitter Profile"
+              class="icon"
+              onclick="location.href='https://www.instagram.com/ayeshaghorizz/'"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More about me and my kids</p>
+        <h1 class="title"> ABOUT</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="penguin.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="penguin.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>People call me Penguin</h3>
+                <p>from the day I born  <br />I walk like a Penguin</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="gulab.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Gulab Jamun</h3>
+                <p>some people call me gundu gundu gulab jamun<br />some calls moti moter car and the list goes on..</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                So Im a penguin and gulab jamun and moti moter car ......
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Likes</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Food Items</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="biriyani.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Biriyani</h3>
+                    <p>all day</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="biriyani.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Biriyani</h3>
+                    <p>all day</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="biriyani.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Biriyani</h3>
+                    <p>all day</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="biriyani.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Biriyani </h3>
+                    <p>all night</p>
+                  </div>
+                </article>
+                
+                
+            <div class="details-container">
+              <h2 class="experience-sub-title">My Daily Routine</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="pray.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Pray</h3>
+                    <p>must</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="eat.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>eat</h3>
+                    <p>all time</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="sleep.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>sleep</h3>
+                    <p>everyday everytime</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="study.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Study</h3>
+                    <p>only during exams</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">SEE MY </p>
+        <h1 class="title">Kids</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="waj.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Wajhi</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.narendramodi.in/'"
+                >
+                  Insta
+                </button>
+                <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://twitter.com/euphoriantwajoy'"
+              >
+                Twitter
+              </button>
+                
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="juv.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Juveria</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.instagram.com/myjobistosimp/'"
+                >
+                  Insta
+                </button>
+                <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://twitter.com/cuteshawarma'"
+              >
+                Twitter
+              </button>
+              
+                
+                
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="amal.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">AMUL</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://twitter.com/dostoevskychoco'"
+                >
+                  Twitter
+                </button>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">ERRAGADA MENTAL HOSPITAL</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">penguin@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="Twitter-new-logo.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://twitter.com/baggyytshirt">Twitter</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Likes</a></li>
+              <li><a href="#projects">Kids</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 penguin ayesha. All Rights Reserved for Penguin.</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
+    
